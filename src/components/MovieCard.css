@@ -1,0 +1,98 @@
+.movie-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+.movie-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.movie-header h2 {
+  color: #333;
+  margin: 0;
+  font-size: 1.5em;
+}
+.delete-btn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.delete-btn:hover {
+  background: #cc0000;
+  transform: scale(1.1);
+}
+.movie-year {
+  color: #666;
+  margin: 8px 0;
+}
+.movie-director {
+  color: #667eea;
+  margin: 8px 0;
+  font-weight: bold;
+}
+.movie-description {
+  color: #555;
+  margin: 12px 0;
+  line-height: 1.6;
+  font-size: 0.95em;
+}
+.review-section {
+  margin: 15px 0;
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.review-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+.no-reviews {
+  color: #999;
+  font-style: italic;
+  margin: 0;
+}
+.reviews-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.review-item {
+  background: white;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-left: 3px solid #667eea;
+  border-radius: 4px;
+color: #555;
+  font-size: 0.9em;
+}
+.add-review-btn {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+.add-review-btn:hover {
+  background: #5568d3;
+  transform: scale(1.02);
+}
